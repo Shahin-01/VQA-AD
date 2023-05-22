@@ -1,0 +1,1 @@
+This folder contains the 250 driving frames used for training our VQA architecture.
