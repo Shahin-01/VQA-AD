@@ -11,7 +11,7 @@ Firstly, we need to get the MS COCO files. In order to get the MS COCO files, we
 
 The next step is to train the VQA network on the MS COCO images using the ```src/vqa_notebook_train_MSCOCO.ipynb``` script and save the PyTorch model. It took us nearly ~ 36 hours to train the MS COCO images with 50 epochs on a machine with a NVIDIA RTX 3090 GPU and a 32 GB memory size.   
 
-## Dataset construction
+## Dataset
 To obtain driving data, we ran the [Deep Deterministic Policy Gradient (DDPG)](https://arxiv.org/pdf/1509.02971.pdf) algorithm on [CARLA 0.9.11](https://carla.readthedocs.io/en/0.9.11/). While an autonomous car was operating in its environment, we recorded its driving video that shows the vehicle's field of view (FoV) in each instantaneous step. In this version, we  focus on annotation of five action categories: Go straight, turn left, turn left at T-junction, turn right, and turn right at T-junction.  We futher convert the collected driving video to image sequences uniformly, and annotate the actions performed in each driving scene (i.e., frame) with question-answer pairs.Thus, our dataset consists of three parts:
 
 **Training Data:** 250 frames from the autonomous car's driving on  Town 1 (```VQA-AD/src/Training Data/```)  <br>
