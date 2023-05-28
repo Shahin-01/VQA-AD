@@ -1,6 +1,10 @@
 ## Visual question answering (VQA) approach to explaining autonomous driving actions
 
 In this repository, we provide the first empirical study on explaining autonomous driving actions using a visual question-answering approach. Given an action performed by a self-driving car within a driving scene and a question asked about such an action, the VQA framework should predict a correct and intelligible justification (i.e., answer) for that chosen action.  
+
+## The framework at a high level:
+Input: a driving frame and a question associated with an action performed in that frame
+Output: Top five prediction (i.e., answer) for the asked question on that image with softmax probability scores.
 ## Setup
 
 Firstly, we need to get the MS COCO files. In order to get the MS COCO files, we need to go to  the ```src/utilities``` folder and execute ``` download_and_unzip_datasets.csh ```. The commands inside this script file will download the MS COCO images. Once this step is completed,  execute the ```make_vocabs_for_questions_answers.py``` file. This script will generate the question and answer vocabularies for the MS COCO images.
@@ -13,3 +17,4 @@ To obtain driving data, we ran the [Deep Deterministic Policy Gradient (DDPG)](h
 **Training Data:** 250 frames from the autonomous car's driving on  Town 1 (```VQA-AD/src/Training Data/```)  <br>
 **Test Data:** 100 frames from the autonomous car's driving on Town 1 and Town 2 (```VQA-AD/src/Testing Data/```) <br> 
 **VQA Annotation:** CSV files that contain question-answer pairs, and image paths (```VQA-AD/src/VQA annotations/```).
+
