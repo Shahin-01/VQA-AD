@@ -18,3 +18,6 @@ To obtain driving data, we ran the [Deep Deterministic Policy Gradient (DDPG)](h
 **Test Data:** 100 frames from the autonomous car's driving on Town 1 and Town 2 (```VQA-AD/src/Testing Data/```) <br> 
 **VQA Annotation:** CSV files that contain question-answer pairs, and image paths (```VQA-AD/src/VQA annotations/```).
 
+## Model's performance
+Once the steps in the Setup section are finished,  you can easily reproduce the model's predicton using```VQA-AD/src/VQA_Inference.ipynb``` code.  
+
