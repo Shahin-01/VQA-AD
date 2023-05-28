@@ -12,17 +12,17 @@ Firstly, we need to get the MS COCO files. In order to get the MS COCO files, we
 The next step is to train the VQA network on the MS COCO images using the ```src/vqa_notebook_train_MSCOCO.ipynb``` script and save the PyTorch model. It took us nearly ~ 36 hours to train the MS COCO images with 50 epochs on a machine with a NVIDIA RTX 3090 GPU and a 32 GB memory size.   
 
 ## Dataset
-To obtain driving data, we ran the [Deep Deterministic Policy Gradient (DDPG)](https://arxiv.org/pdf/1509.02971.pdf) algorithm on [CARLA 0.9.11](https://carla.readthedocs.io/en/0.9.11/). While an autonomous car was operating in its environment, we recorded its driving video that shows the vehicle's field of view (FoV) in each instantaneous step. In this version, we  focus on annotation of five action categories: Go straight, turn left, turn left at T-junction, turn right, and turn right at T-junction.  We futher convert the collected driving video to image sequences uniformly, and annotate the actions performed in each driving scene (i.e., frame) with question-answer pairs.Thus, our dataset consists of three parts:
+To obtain driving data, we ran the [Deep Deterministic Policy Gradient (DDPG)](https://arxiv.org/pdf/1509.02971.pdf) algorithm on [CARLA 0.9.11](https://carla.readthedocs.io/en/0.9.11/). While an autonomous car was operating in its environment, we recorded its driving video that shows the vehicle's field of view (FoV) in each instantaneous step. In this version, we  focus on annotation of five action categories: Go straight, turn left, turn left at T-junction, turn right, and turn right at T-junction. We further convert the collected driving video to image sequences uniformly, and annotate the actions performed in each driving scene (i.e., frame) with question-answer pairs.Thus, our dataset consists of three parts:
 
 **Training Data:** 250 frames from the autonomous car's driving on  Town 1 (```VQA-AD/src/Training Data/```)  <br>
 **Test Data:** 100 frames from the autonomous car's driving on Town 1 and Town 2 (```VQA-AD/src/Testing Data/```) <br> 
 **VQA Annotation:** CSV files that contain question-answer pairs, and image paths (```VQA-AD/src/VQA annotations/```).
 
 ## Reproducing the results
-Once the steps in the Setup section are finished,  you can easily reproduce the model's predicton using```VQA-AD/src/VQA_Inference.ipynb``` code. There you can get the answers the tested 100 action/question pair and see the model's overall performance.
+Once the steps in the Setup section are finished,  you can easily reproduce the model's predicton using```VQA-AD/src/VQA_Inference.ipynb``` code. There you can get the answers for the tested 100 action/question pair and see the model's overall performance.
 
 ## Implications
 By using our framework, you can easily test your simulation-based or even real autonomous driving scenes (in this case, make sure that you annotate other actions categories that are not listed above) as well.
 
 ## References:
-[VQA: Visual Question Answering](https://openaccess.thecvf.com/content_iccv_2015/html/Antol_VQA_Visual_Question_ICCV_2015_paper.html) [VQA GitHub], [url](https://github.com/SatyamGaba/visual_question_answering)
+[VQA: Visual Question Answering](https://openaccess.thecvf.com/content_iccv_2015/html/Antol_VQA_Visual_Question_ICCV_2015_paper.html) [VQA GitHub](https://github.com/SatyamGaba/visual_question_answering)
