@@ -1,4 +1,4 @@
-## Visual question answering (VQA) approach to eplaining autonomous driving actions
+## Visual question answering (VQA) approach to explaining autonomous driving actions
 
 In this repository, we present the first empirical study on explaining autonomous driving actions using a VQA approach. Given an action performed by a self-driving car within a driving scene, and a causal question asked about such an action, the VQA framework predicts a correct answer for that chosen action.  
 
