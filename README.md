@@ -19,5 +19,5 @@ To obtain driving data, we ran the [Deep Deterministic Policy Gradient (DDPG)](h
 **VQA Annotation:** CSV files that contain question-answer pairs, and image paths (```VQA-AD/src/VQA annotations/```).
 
 ## Reproducing the results
-Once the steps in the Setup section are finished,  you can easily reproduce the model's predicton using```VQA-AD/src/VQA_Inference.ipynb``` code.  
+Once the steps in the Setup section are finished,  you can easily reproduce the model's predicton using```VQA-AD/src/VQA_Inference.ipynb``` code. There you can get the answers the tested 100 action/question pair and see the model's overall performance.
 
