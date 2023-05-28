@@ -4,4 +4,4 @@ In this repository, we provide a preliminary study of explainable self-driving a
 
 ## Setup
 
-Firstly, we need to get the MS COCO files. In order to get the MS COCO files, we need to go to  the ``` src/utilities``` folder.
+Firstly, we need to get the MS COCO files. In order to get the MS COCO files, we need to go to  the ``` src/utilities``` folder and execute ``` download_and_unzip_datasets.csh ```. The commands inside this script file will download the MS COCO images.
