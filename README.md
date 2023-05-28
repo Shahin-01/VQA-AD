@@ -2,7 +2,7 @@
 
 In this repository, we provide the first empirical study on explaining autonomous driving actions using a visual question-answering approach. Given an action performed by a self-driving car within a driving scene and a question asked about such an action, the VQA framework should predict a correct and intelligible justification (i.e., answer) for that chosen action.  
 
-## The framework at a high level:
+## The framework at a high level
 Input: a driving frame and a question associated with an action performed in that frame
 Output: Top five prediction (i.e., answer) for the asked question on that image with softmax probability scores.
 ## Setup
