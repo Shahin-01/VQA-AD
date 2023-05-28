@@ -22,7 +22,7 @@ To obtain driving data, we ran the [Deep Deterministic Policy Gradient (DDPG)](h
 Once the steps in the Setup section are finished,  you can easily reproduce the model's predicton using```VQA-AD/src/VQA_Inference.ipynb``` code. There you can get the answers for the tested 100 action/question pair and see the model's overall performance.
 
 ## Implications
-By using our framework, you can easily test your simulation-based or even real autonomous driving scenes (in this case, make sure that you annotate other actions categories that are not listed above) as well.
+By using our framework, you can easily test your simulation-based or even real autonomous driving scenes (in this case, make sure that you annotate other actions categories with the relevant QA pairs that are not listed above) as well.
 
 ## References:
 [VQA: Visual Question Answering](https://openaccess.thecvf.com/content_iccv_2015/html/Antol_VQA_Visual_Question_ICCV_2015_paper.html) • [VQA GitHub](https://github.com/SatyamGaba/visual_question_answering) • [DDPG](https://arxiv.org/pdf/1509.02971.pdf)
