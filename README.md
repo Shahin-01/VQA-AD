@@ -15,7 +15,7 @@ To obtain driving data, we ran the [Deep Deterministic Policy Gradient (DDPG)](h
 
 **Training Data:** 250 frames from the autonomous car's driving on  Town 1 (```VQA-AD/src/Training Data/```)  <br>
 **Test Data:** 100 frames from the autonomous car's driving on Town 1 and Town 2 (```VQA-AD/src/Testing Data/```) <br> 
-**VQA Annotation:** CSV files that contain question-answer pairs, and image paths (```VQA-AD/src/VQA annotations/```)
+**VQA Annotation:** CSV files that contain question-answer pairs, and image paths (```VQA-AD/src/VQA annotations/```) <br>
 **Vocabulary:** The vocabulary files that keep  question and answer vocabularies, respectively.
 
 ## Reproducing the results
