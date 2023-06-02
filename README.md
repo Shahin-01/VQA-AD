@@ -15,7 +15,8 @@ To obtain driving data, we ran the [Deep Deterministic Policy Gradient (DDPG)](h
 
 **Training Data:** 250 frames from the autonomous car's driving on  Town 1 (```VQA-AD/src/Training Data/```)  <br>
 **Test Data:** 100 frames from the autonomous car's driving on Town 1 and Town 2 (```VQA-AD/src/Testing Data/```) <br> 
-**VQA Annotation:** CSV files that contain question-answer pairs, and image paths (```VQA-AD/src/VQA annotations/```).
+**VQA Annotation:** CSV files that contain question-answer pairs, and image paths (```VQA-AD/src/VQA annotations/```)
+**Vocabulary:** The vocabulary files that keep  question and answer vocabularies, respectively.
 
 ## Reproducing the results
 Once the steps in the Setup section are finished,  you can easily reproduce the model's predicton using```VQA-AD/src/VQA_Inference.ipynb``` code. There you can get the answers for the tested 100 action/question pair and see the model's overall performance. Please, remember that you will need a decent GPU and RAM along with the NVIDIA CUDA toolkit in order to run our source code on your machine.
