@@ -2,6 +2,7 @@
 
 In this repository, we present the first empirical study on explaining autonomous driving actions using a VQA approach. Given an action performed by a self-driving car within a driving scene, and a causal question asked about such an action, the VQA framework predicts a correct answer for that chosen action. This repository contains the source code and related resources for our paper entitled "Explaining Autonomous Driving Actions with Visual Question Answering", which has been accepted for publication in the 2023 IEEE International Conference on Intelligent Transportation Systems (IEEE ITSC-2023) in Bilbao, Spain.
 
+### The graphical description of the proposed framework
 ![VQA framework](src/VQA_framework_AD.jpg)
 
 ## The framework at a high level
