@@ -34,8 +34,8 @@ By using the presented framework, you can easily test our model on your simulati
 ## Paper:
 
     @article{atakishiyev2023explaining,
-             title={Explaining Autonomous Driving Actions with Visual Question Answering},
-            author={Atakishiyev, Shahin and Salameh, Mohammad and Babiker, Housam and Goebel, Randy},
-            journal={arXiv preprint arXiv:2307.10408},
-            year={2023}
-             }
+        title={Explaining Autonomous Driving Actions with Visual Question Answering},
+        author={Atakishiyev, Shahin and Salameh, Mohammad and Babiker, Housam and Goebel, Randy},
+        journal={arXiv preprint arXiv:2307.10408},
+        year={2023}
+        }
