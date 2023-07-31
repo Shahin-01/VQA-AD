@@ -38,4 +38,4 @@ By using the presented framework, you can easily test our model on your simulati
         author={Atakishiyev, Shahin and Salameh, Mohammad and Babiker, Housam and Goebel, Randy},
         journal={arXiv preprint arXiv:2307.10408},
         year={2023}
-        }
+    }
