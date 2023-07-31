@@ -30,11 +30,12 @@ By using the presented framework, you can easily test our model on your simulati
 ## References
 [VQA: Visual Question Answering](https://openaccess.thecvf.com/content_iccv_2015/html/Antol_VQA_Visual_Question_ICCV_2015_paper.html) • [VQA GitHub](https://github.com/SatyamGaba/visual_question_answering) • [DDPG](https://arxiv.org/pdf/1509.02971.pdf)
 
-Paper:
 
-@article{atakishiyev2023explaining,
-  title={Explaining Autonomous Driving Actions with Visual Question Answering},
-  author={Atakishiyev, Shahin and Salameh, Mohammad and Babiker, Housam and Goebel, Randy},
-  journal={arXiv preprint arXiv:2307.10408},
-  year={2023}
-}
+## Paper:
+
+    @article{atakishiyev2023explaining,
+             title={Explaining Autonomous Driving Actions with Visual Question Answering},
+            author={Atakishiyev, Shahin and Salameh, Mohammad and Babiker, Housam and Goebel, Randy},
+            journal={arXiv preprint arXiv:2307.10408},
+            year={2023}
+             }
