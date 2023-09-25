@@ -6,7 +6,7 @@ In this repository, we present the first empirical study on explaining autonomou
 ![VQA framework](src/VQA_framework_AD.jpg)
 
 ## The framework at a high level
-**Input:** a driving frame and a question associated with an action performed in that frame  <br>
+**Input:** a driving frame (i.e., an image) and a question (i.e., a text) associated with an action performed in that frame  <br>
 **Output:** The model's top five predictions (i.e., answers) for the asked question on that action in the frame with corresponding softmax probability scores.
 ## Setup
 
