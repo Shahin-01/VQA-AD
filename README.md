@@ -34,8 +34,8 @@ By using the presented framework, you can easily test our model on your simulati
 ## Paper:
 
     @INPROCEEDINGS{atakishiyev2023exp,
-  author={Atakishiyev, Shahin and Salameh, Mohammad and Babiker, Housam and Goebel, Randy},
-  booktitle={2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)}, 
-  title={Explaining Autonomous Driving Actions with Visual Question Answering}, 
-  year={2023}
-  pages={1207-1214}}
+     author={Atakishiyev, Shahin and Salameh, Mohammad and Babiker, Housam and Goebel, Randy},
+     booktitle={2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)}, 
+     title={Explaining Autonomous Driving Actions with Visual Question Answering}, 
+     year={2023}
+     pages={1207-1214}}
